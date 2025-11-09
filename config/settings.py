@@ -10,7 +10,7 @@ from typing import Optional
 from pathlib import Path
 from dotenv import load_dotenv
 
-from human_behavior import HumanBehaviorConfig
+from bot.behavior import HumanBehaviorConfig
 
 # Загружаем .env файл (явно указываем путь)
 env_path = Path(__file__).parent.parent / ".env"
